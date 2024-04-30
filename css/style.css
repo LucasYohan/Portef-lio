@@ -55,7 +55,6 @@ header nav ul li:hover {
 }
 
 main h1 {
-    align-items: center;
     text-transform: uppercase;
     padding: 35px;
     color: white;
@@ -76,4 +75,13 @@ main div img {
 main div p {
     color: white;
     margin-left: 50px;
+}
+
+.txtImg {
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
 }
