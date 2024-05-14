@@ -85,3 +85,16 @@ main div p {
     display: flex;
     justify-content: center;
 }
+
+.accordion {
+    padding-left: 10px 15px;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+}
+
+.card-body {
+    background-color: rgb(185, 178, 178);
+}
