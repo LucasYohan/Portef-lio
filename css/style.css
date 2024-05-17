@@ -67,10 +67,11 @@ main div {
 }
 
 main div img {
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 350px;
     display: flex;
     box-shadow: 10px 10px 15px black;
+
 }
 main div p {
     color: white;
@@ -84,17 +85,4 @@ main div p {
 .texto {
     display: flex;
     justify-content: center;
-}
-
-.accordion {
-    padding-left: 10px 15px;
-}
-
-.card-header {
-    background-color: black;
-    color: white;
-}
-
-.card-body {
-    background-color: rgb(185, 178, 178);
 }
