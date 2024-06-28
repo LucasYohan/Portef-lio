@@ -7,7 +7,7 @@
 body {
     background-color: #FFFFF0;
     font-family: "Playfair Display", serif;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 header {
@@ -60,7 +60,12 @@ header nav ul li:hover {
 main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 50px;
+}
+
+.imagens {
+
 }
 
 img {
@@ -69,18 +74,43 @@ img {
     margin: 90px;
 }
 
-.html {
+.html_icon {
     width: 275px;
     height: 250px;
 }
 
-.css {
+.css_icon {
     width: 218px;
     height: 250px;
 }
 
-.js {
+.js_icon {
     width: 250px;
     height: 225px;
     margin-top: 100px;
+}
+
+.office_icon {
+    width: 218px;
+    height: 250px;
+}
+.csharp_icon {
+    width: 218px;
+    height: 250px;
+}
+.mysql_icon {
+    width: 218px;
+    height: 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 50px; 
+}
+footer img {
+    width: 75px;
+    height: 75px;
+    margin-top: 10%;
 }
