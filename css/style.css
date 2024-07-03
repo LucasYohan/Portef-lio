@@ -85,6 +85,7 @@ img {
     width: 250px;
     height: 225px;
     margin-top: 100px;
+    border-radius: 10px;
 }
 
 .office_icon {
@@ -100,6 +101,7 @@ img {
 .mysql_icon {
     width: 250px;
     height: 250px;
+    border-radius: 10px;
 }
 
 footer {
